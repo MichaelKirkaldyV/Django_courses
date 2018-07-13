@@ -2,8 +2,16 @@
 <html>
 <head>
 	<title>Remove Courses</title>
+	{% load static %}
 </head>
 <body>
+	<h1>Are you sure you want to delete the following course?</h1>
+	<form action="/delete" methods="POST">
+		<h3>Name: {{courses.name}}</h3>
+		<h3>Description: {{courses.desc}}</h3>
+		<a href="/">No</a>
+		<a href="/delete">Yes! I want to delete this.</a>
+	</form>
 
 </body>
 </html>

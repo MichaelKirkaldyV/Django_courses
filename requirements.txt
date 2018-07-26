@@ -1,9 +1,6 @@
-click==6.7
-Django==1.11.9
-Flask==1.0.2
-itsdangerous==0.24
-Jinja2==2.10
-MarkupSafe==1.0
+bcrypt==3.1.4
+cffi==1.11.5
+Django==1.11.13
+pycparser==2.18
 pytz==2018.4
-virtualenv==16.0.0
-Werkzeug==0.14.1
+six==1.11.0
